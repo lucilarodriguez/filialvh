@@ -32,14 +32,27 @@ html{
 @media only screen and (max-width:768px){
   
   .navbar{
-    background-color:#1c2a48}
+    background-color:#1c2a48
+  }
 
-    .carousel-inner,
-    .carousel .carousel-inner .active,
-    .carousel .carousel-inner .carousel-item,
+    .carousel-inner, .carousel-example-1z,
+    .carousel, .carousel-inner, .active,
+    .carousel, .carousel-inner, .carousel-item,
     .view,
     body,
     html{
-      height:60%
+      height:86%;
+      padding-top:11px;
+      padding-bottom:270px;
+
+    }
+
+    .carousel-example-1z{
+      box-sizing: content-box;
+      width: 100px;
+      height: 100px;
+    }
+    
+      
 
 }
