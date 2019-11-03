@@ -43,7 +43,7 @@ html{
     html{
       height:86%;
       padding-top:11px;
-      padding-bottom:270px;
+     
 
     }
 
@@ -51,6 +51,7 @@ html{
       box-sizing: content-box;
       width: 100px;
       height: 100px;
+      padding-bottom:270px;
     }
     
       
